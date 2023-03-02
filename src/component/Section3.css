@@ -1,0 +1,49 @@
+div.bn_wrap{
+  width: 1200px; margin: 50px auto; height: 750px; display: flex; position: relative; gap: 50px;
+}
+div.bn_wrap::after{
+  content: "EL DENTAL HOSPITAL";position: absolute; bottom: 20px; font-size: 100px; font-weight: 700;
+  z-index: 5; left: 80px; opacity: .2;
+}
+hr{
+  color: #000;width: 1200px; margin: 0 auto; margin-top: 30px;
+}
+div.left{
+  width: 50%;height: 700px; padding-top: 50px;
+}
+div.left h2{
+  font-weight: 900;
+}
+div.left h2 img{
+  width: 50px;
+}
+div.left div.swiper.infobg{
+  width: 600px; height: 350px; position: absolute; bottom: 50px;left: -30px;
+}
+div.left div.swiper.infobg div.swiper-slide img{
+  width: 100%; height: 100%;
+}
+div.right{
+  padding-top: 50px;
+}
+div.right ol{
+  line-height: 1.8; margin-bottom: 70px;
+}
+div.right ol li:hover{
+  transform: scale(1.2); cursor: pointer;transition: .5s;
+}
+div.right a{
+  padding: 20px 100px 20px 0;
+  text-decoration: none; color: #000;
+  border-top: 2px solid gray;
+  transition: .3s;
+  position: relative;
+}
+div.right a span{
+  position: absolute; right: 0;
+}
+div.right a:hover{
+  color: #0082b6;
+  border-top: none;
+  border-bottom: 2px solid #0082b6;
+}

@@ -1,0 +1,56 @@
+li{
+  list-style: none;
+}
+div.info_wrap{
+  width: 1200px; background-color: #fff; margin: 0 auto; margin-bottom: 20px;
+}
+div.call{
+  background-color: #fff;
+}
+div.call h2{
+  background-color: #0082b6; text-align: center; color: #fff; padding: 20px 0; font-size: 24px;
+}
+div.call div.finish button:first-child{
+  background-color: #0082b6;color: #fff; margin-bottom: 10px;
+}
+div.call div.finish button{
+  width: 50px; height: 50px; border: none; margin-left: 10px;
+}
+div.call div.inbox{
+  display: flex; width: 800px; margin: 30px auto; height: 390px; overflow: hidden;
+}
+div.call div.inbox h3{
+  width: 280px; text-align: right;
+}
+div.call div.inbox h3 span{
+  color: #67c5eb; font-weight: lighter; font-size: 50px;
+}
+div.call div.inbox div.infobox{
+  font-size: 12px; width: 480px; border: 1px solid gray; 
+}
+
+div.call div.inbox div.infobox ul  {
+  padding-left: 10px; padding-right: 10px;
+}
+div.call div.inbox div.infobox ul li:not(:last-child) {
+  display: flex; 
+}
+div.call div.inbox div.infobox ul li div.checkinfo{
+  display: flex; line-height: 20px; height: 20px;  justify-content: right; position: relative; margin-top: 30px;
+}
+div.call div.inbox div.infobox ul li div.checktext{
+  height: 200px; border: 1px solid black; background-color: white;
+    white-space: pre-line; overflow-y: scroll; margin: 0 auto 20px;
+}
+div.call div.inbox div.infobox ul li div.checkinfo span{
+  position: absolute; left: 0;
+}
+div.call div.inbox div.infobox ul li div.checkinfo input[type=checkbox]{
+  margin-top: -3px;
+}
+div.call div.inbox div.infobox ul li p{
+  width: 100px; text-align: center; padding-top: 5px; margin-bottom: 0;
+}
+div.call div.inbox div.infobox ul li input, select{
+  height: 25px; margin-top: 5px;
+}

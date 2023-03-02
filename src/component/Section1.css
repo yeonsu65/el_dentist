@@ -1,0 +1,15 @@
+div.sc1{
+  display: flex; width: 1200px; margin: 0 auto; margin-bottom: 20px;
+}
+div.sc1 h1{
+  font-size: 25px; font-weight: 900; width: 150px; 
+}
+div.sc1 h1 span{
+  font-size: 27px; color: #0082b6;
+}
+.swiper{
+  height: 400px;  width: 1000px;
+}
+.swiper .swiper-slide{
+  height: 400px; background-color: beige;
+}

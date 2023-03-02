@@ -1,0 +1,23 @@
+.sc2wrap{
+  width: 1200px; 
+  margin: 0 auto; display: flex; justify-content: space-between; margin-top: 20px;
+}
+div.sc2wrap div div.top{
+  display: flex; gap: 13px;
+}
+div.sc2wrap div div.bottom{
+  display: flex; gap: 13px; margin-top: 13px;
+}
+div.menubox{
+  width: 1200px; margin: 0 auto; display: flex;justify-content: space-between;align-items: center; margin-top: 30px; margin-bottom: 30px;
+}
+div.menubox a{
+  text-decoration: none; color: black; font-size: 20px; font-weight: bold; width: calc(100%/3.1); background-color: #d2f2ff; position: relative; height: 100px;  padding-top: 20px; padding-left: 30px;
+}
+div.menubox a span{
+  font-size: 14px; font-weight: lighter;
+}
+div.menubox a svg{
+  margin-left: 50px; position: absolute; top: 20px; right: 20px; background-color: #0082b6;  padding: 20px; border-radius: 50%;
+  font-size: 30px; width: 30px; height: 30px; color: #fff;
+}
